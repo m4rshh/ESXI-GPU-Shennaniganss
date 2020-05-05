@@ -1,0 +1,19 @@
+#Spiel about PCI ID's
+0000.05.00 is the new gpu
+8 core 1 socket
+6144mb/6gb ram
+60gb boot drive
+VXNET3 NIC
+
+# Allows larger thatn 4GB? VRAM
+pciPassthru.use64bitMMIO TRUE
+
+# Mask VMWare CPU Flags from Nvedia 
+hypervisor.cpuid.v0 = "FALSE"
+
+
+# Tested Stations
+fam-wkstation-2
+fam-wkstation-1
+
+
